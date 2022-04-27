@@ -67,6 +67,6 @@ relative_imp = cluster_avg / population_avg - 1
 # PLot relative importance heatmap
 plt.figure()
 plt.title('Relative Importance of Attributes')
-sns.heatmap(data=relative_imp, annot=True, fmt='.2f', cmap='RdBu_r')
+sns.heatmap(data=relative_imp, annot=True, square=True, fmt='.2f', cmap='RdBu_r')
 plt.show()
 
