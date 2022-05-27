@@ -48,7 +48,7 @@ plt.show()
 # Count the occurence of 'data' and 'data analytics'
 # The ratio of 'data analytics' to 'data' can be used to compute the probability
 text2 = text.lower()
-data_count2 = text.count('data')
-analytics_count = text.count('data analytics')
+data_count2 = text2.count('data')
+analytics_count = text2.count('data analytics')
 prob_analytics = analytics_count / data_count2 * 100
 print(f'The probability of the word “analytics” occurring after the word “data” is {prob_analytics:.2f} %.')
